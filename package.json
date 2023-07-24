@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-starter-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "dev:nuxt": "nuxt dev",
+    "generate": "nuxi generate",
+    "prepare": "nuxi prepare",
+    "preview": "nuxi preview"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@3.0.0-28161214.90af848",
+    "@nuxt/types": "^2.17.0",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "nuxt": "^2.17.0"
+  }
+}
